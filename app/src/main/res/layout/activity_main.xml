@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="193dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:text="@string/sit305_quiz_app"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/namePromptText"
+            android:layout_width="118dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/enter_your_name"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="311dp" />
+
+        <EditText
+            android:id="@+id/nameInputEditText"
+            android:layout_width="217dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:background="@drawable/textboxoutline"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:outlineProvider="none"
+            android:text=""
+            tools:layout_editor_absoluteX="190dp"
+            tools:layout_editor_absoluteY="303dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="240dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="250dp"
+        android:layout_weight="1"
+        android:backgroundTint="@null"
+        android:background="@drawable/navbutton"
+        android:text="@string/start"
+        android:onClick="startQuiz"
+        android:textColor="#FF4B4949"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

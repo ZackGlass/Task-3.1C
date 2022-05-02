@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="enter_your_name">Enter your name:</string>
+    <string name="sit305_quiz_app">SIT305 Quiz App</string>
+    <string name="start">START</string>
+    <string name="submit">Submit</string>
+
+    <string-array name="Q1">
+        <item>Question 1</item>
+        <item>Which of the following is not one of the 4 lifecycle states of an Activity?</item>
+        <item>Partially hidden</item>
+        <item>Destroyed</item>
+        <item>Suspended</item>
+    </string-array>
+
+    <string-array name="Q2">
+        <item>Question 2</item>
+        <item>Which of the following is not one of the 4 lifecycle states of an Activity?</item>
+        <item>Partially hidden</item>
+        <item>Destroyed</item>
+        <item>Suspended</item>
+    </string-array>
+
+    <string-array name="Q3">
+        <item>Question 3</item>
+        <item>Which of the following is not one of the 4 lifecycle states of an Activity?</item>
+        <item>Partially hidden</item>
+        <item>Destroyed</item>
+        <item>Suspended</item>
+    </string-array>
+
+    <string-array name="Q4">
+        <item>Question 4</item>
+        <item>Which of the following is not one of the 4 lifecycle states of an Activity?</item>
+        <item>Partially hidden</item>
+        <item>Destroyed</item>
+        <item>Suspended</item>
+    </string-array>
+
+    <string-array name="Q5">
+        <item>Question 5</item>
+        <item>Which of the following is not one of the 4 lifecycle states of an Activity?</item>
+        <item>Partially hidden</item>
+        <item>Destroyed</item>
+        <item>Suspended</item>
+    </string-array>
+
+</resources>
